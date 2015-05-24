@@ -1,0 +1,34 @@
+{
+  "name": "gh-polyglot",
+  "version": "1.0.0",
+  "description": "Get language stats about GitHub users and repositories.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "github-colors": "^1.0.0",
+    "gh.js": "^1.1.0",
+    "cli-pie": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/github-contributions.git"
+  },
+  "keywords": [
+    "polyglot",
+    "github",
+    "stats",
+    "languages"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/github-contributions/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/github-contributions"
+}
