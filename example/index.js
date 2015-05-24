@@ -1,21 +1,15 @@
 // Dependencies
-var GhPolyglot = require("../lib")
-  , Pie = require("cli-pie")
-  ;
+var GhPolyglot = require("../lib");
 
-var me = new GhPolyglot("GhitaB/guess-my-number");
+// Stats about git-stats
+var me = new GhPolyglot("IonicaBizau/git-stats");
+
+// Repository stats
 me.repoStats(function (err, stats) {
-    if (err) { return console.log(err); }
-    console.log("Repo stats: ", stats);
-    console.log(new Pie(10, stats, {
-        legend: true
-    }).toString());
+    console.log(err || stats);
 });
 
+// User stats
 me.userStats(function (err, stats) {
-    if (err) { return console.log(err); }
-    console.log("Repo stats: ", stats);
-    console.log(new Pie(10, stats, {
-        legend: true
-    }).toString());
+    console.log(err || stats);
 });
