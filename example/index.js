@@ -1,6 +1,6 @@
 // Dependencies
 var GhPolyglot = require("../lib")
-  , Pie = require("../../cli-pie/lib")
+  , Pie = require("cli-pie")
   ;
 
 var me = new GhPolyglot("GhitaB/guess-my-number");
