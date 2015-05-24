@@ -2,6 +2,7 @@
 // Dependencies
 var Fs = require("fs")
   , GitHubColors = require("github-colors")
+  , UglifyJS = require("uglify-js")
   ;
 
 const TEMPLATE = "(function (root) {\n"
@@ -16,7 +17,7 @@ var ghPolyglot = Fs.readFileSync(__dirname + "/../lib/index.js", "utf-8")
   , lines = ghPolyglot.split("\n")
   , replace = {
         __GITHUB_POLYGLOT__: lines.slice(lines.indexOf("/**")).join("\n")
-      , __GITHUB_COLORS__: "{ get: " + GitHubColors.get.toString() + "\n"
+      , __GITHUB_COLORS__: "{ get: " + GitHubColors.get.toString() + ",\n"
                          + "colors: " + JSON.stringify(GitHubColors.colors) + "}"
     }
   , client = TEMPLATE
@@ -27,3 +28,4 @@ Object.keys(replace).forEach(function (c) {
 });
 
 Fs.writeFileSync(__dirname + "/../dist/gh-polyglot.js", client);
+Fs.writeFileSync(__dirname + "/../dist/gh-polyglot.min.js", UglifyJS.minify(client, { fromString: true }).code);
