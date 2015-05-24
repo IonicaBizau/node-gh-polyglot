@@ -27,5 +27,8 @@ Object.keys(replace).forEach(function (c) {
     client = client.replace(new RegExp(c), replace[c]);
 });
 
+client = client.replace("module.exports = ", "root.GitHubPolyglot = ");
+client = client.replace("this.init();", "");
+
 Fs.writeFileSync(__dirname + "/../dist/gh-polyglot.js", client);
 Fs.writeFileSync(__dirname + "/../dist/gh-polyglot.min.js", UglifyJS.minify(client, { fromString: true }).code);
