@@ -1,8 +1,9 @@
-# gh-polyglot
+![](http://i.imgur.com/wQ2eGDb.png)
+
+# GitHub Polyglot
 Get language stats about GitHub users and repositories.
 
 ## Installation
-Run the following commands to download and install the application:
 
 ```sh
 $ npm install gh-polyglot
