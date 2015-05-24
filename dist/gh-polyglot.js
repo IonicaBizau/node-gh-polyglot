@@ -1,6 +1,6 @@
 (function (root) {
   var GitHubColors = { get: function (lang, handleOthers) {
-    this.init();
+    
     var found = this.colors[lang];
     return found || (handleOthers === false ? null : {
         color: "#ccc"
@@ -131,6 +131,6 @@ GhPolyglot.prototype.check = function (callback) {
     };
 };
 
-module.exports = GhPolyglot;
+root.GitHubPolyglot = GhPolyglot;
 
 })(window);
