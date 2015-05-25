@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "github-colors": "^1.0.0",
-    "gh.js": "^1.1.0",
+    "gh.js": "^1.2.0",
     "cli-pie": "^1.1.0"
   },
   "devDependencies": {},
