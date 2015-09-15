@@ -1,6 +1,6 @@
 {
   "name": "gh-polyglot",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Get language stats about GitHub users and repositories.",
   "main": "lib/index.js",
   "directories": {
@@ -26,12 +26,12 @@
     "languages"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-gh-polyglot/issues"
   },
   "homepage": "https://github.com/IonicaBizau/node-gh-polyglot",
   "blah": {
-      "h_img": "http://i.imgur.com/wQ2eGDb.png"
+    "h_img": "http://i.imgur.com/wQ2eGDb.png"
   }
 }
