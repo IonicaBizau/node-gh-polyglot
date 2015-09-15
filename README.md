@@ -1,53 +1,6 @@
 ![](http://i.imgur.com/wQ2eGDb.png)
 
-# GitHub Polyglot
-Get language stats about GitHub users and repositories.
 
-## Installation
-
-```sh
-$ npm install gh-polyglot
-```
-
-Using this library on the client side is possible as well, but it's dependent on [`gh.js`](https://github.com/IonicaBizau/gh.js).
-
-```html
-<script src="path/to/gh.js"></script>
-<script src="path/to/gh-polyglot.js"></script>
-```
-
-## Example
-
-```js
-// Dependencies
-var GhPolyglot = require("../lib");
-
-// Stats about git-stats
-var me = new GhPolyglot("IonicaBizau/git-stats");
-
-// Repository stats
-me.repoStats(function (err, stats) {
-    console.log(err || stats);
-    // =>
-    // [ { label: 'JavaScript', value: 12777, color: '#f1e05a' },
-    //   { label: 'Shell', value: 1947, color: '#89e051' } ]
-});
-
-// User stats
-me.userStats(function (err, stats) {
-    console.log(err || stats);
-    // =>
-    // [ { label: 'JavaScript', value: 133, color: '#f1e05a' },
-    //   { label: 'Others', value: 17, color: '#ccc' },
-    //   { label: 'CSS', value: 13, color: '#563d7c' },
-    //   { label: 'Shell', value: 8, color: '#89e051' },
-    //   { label: 'C#', value: 4, color: '#178600' },
-    //   { label: 'HTML', value: 2, color: '#e44b23' },
-    //   { label: 'PHP', value: 2, color: '#4F5D95' },
-    //   { label: 'C++', value: 1, color: '#f34b7d' },
-    //   { label: 'COBOL', value: 1, color: undefined },
-    //   { label: 'Java', value: 1, color: '#b07219' },
-    //   { label: 'C', value: 1, color: '#555555' },
     //   { label: 'Python', value: 1, color: '#3572A5' } ]
 });
 ```

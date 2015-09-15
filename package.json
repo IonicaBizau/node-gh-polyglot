@@ -7,9 +7,9 @@
     "example": "example"
   },
   "dependencies": {
-    "github-colors": "^1.0.0",
-    "gh.js": "^1.2.0",
-    "cli-pie": "^1.1.0"
+    "github-colors": "^2.0.0",
+    "gh.js": "^2.0.0",
+    "cli-pie": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-gh-polyglot/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-gh-polyglot"
+  "homepage": "https://github.com/IonicaBizau/node-gh-polyglot",
+  "blah": {
+      "h_img": "http://i.imgur.com/wQ2eGDb.png"
+  }
 }
