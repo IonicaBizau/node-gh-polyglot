@@ -1,6 +1,7 @@
 [![gh-polyglot](http://i.imgur.com/wQ2eGDb.png)](#)
 
 # gh-polyglot [![Support this project][donate-now]][paypal-donations]
+
 Get language stats about GitHub users and repositories.
 
 ## Installation
