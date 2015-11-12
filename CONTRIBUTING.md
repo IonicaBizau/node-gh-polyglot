@@ -6,7 +6,7 @@ make the life easier and will avoid wasting time on things which are not
 requested. :sparkles:
 
 ## Discuss the changes before doing them
- - First of all, open an issue in the repository, using the [bug tracker][1],
+ - First of all, open an issue in the repository, using the bug tracker ,
    describing the contribution you would like to make, the bug you found or any
    other ideas you have. This will help us to get you started on the right
    foot.
@@ -58,7 +58,5 @@ Finally, your contributions will be merged, and everyone will be happy! :smile:
 Contributions are more than welcome!
 
 Thanks! :sweat_smile:
-
-[1]: https://github.com/IonicaBizau/node-gh-polyglot/issues
 
 [2]: https://github.com/IonicaBizau/code-style
