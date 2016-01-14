@@ -1,8 +1,8 @@
 [![gh-polyglot](http://i.imgur.com/wQ2eGDb.png)](#)
 
-# gh-polyglot [![Support this project][donate-now]][paypal-donations]
+# gh-polyglot [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/gh-polyglot.svg)](https://www.npmjs.com/package/gh-polyglot) [![Downloads](https://img.shields.io/npm/dt/gh-polyglot.svg)](https://www.npmjs.com/package/gh-polyglot) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Get language stats about GitHub users and repositories.
+> Get language stats about GitHub users and repositories.
 
 ## Installation
 
