@@ -1,14 +1,17 @@
+
 [![gh-polyglot](http://i.imgur.com/wQ2eGDb.png)](#)
 
 # gh-polyglot [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/gh-polyglot.svg)](https://www.npmjs.com/package/gh-polyglot) [![Downloads](https://img.shields.io/npm/dt/gh-polyglot.svg)](https://www.npmjs.com/package/gh-polyglot) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get language stats about GitHub users and repositories.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save gh-polyglot
 ```
+
+
 
 Using this library on the client side is possible as well, but it's dependent on [`gh.js`](https://github.com/IonicaBizau/gh.js).
 
@@ -17,7 +20,9 @@ Using this library on the client side is possible as well, but it's dependent on
 <script src="path/to/gh-polyglot.js"></script>
 ```
 
-## Example
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -37,7 +42,8 @@ me.userStats(function (err, stats) {
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `GhPolyglot(input, token)`
 Creates a new instance of `GhPolyglot`.
@@ -58,15 +64,45 @@ Gets all user's repositories.
 #### Return
 - **Request** The request object.
 
-## How to contribute
+### `repoStats(callback)`
+Gets repository stats.
+
+#### Params
+- **Function** `callback`: The callback function.
+
+#### Return
+- **Request** The request object.
+
+### `userStats(callback)`
+Gets user stats.
+
+#### Params
+- **Function** `callback`: The callback function.
+
+#### Return
+- **Request** The request object.
+
+### `check(callback)`
+Wraps the callback in another function to manipulate the data.
+
+#### Params
+- **Function** `callback`: The callback function.
+
+#### Return
+- **Function** The wrapping function which gets the `err` and `data` arguments and changes the data converting it into an array.
+
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`github-stats`](https://github.com/IonicaBizau/github-stats)
 
-## License
+ - [`github-stats`](https://github.com/IonicaBizau/github-stats)—Visualize stats about GitHub users and projects in your terminal.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
