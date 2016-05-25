@@ -1,6 +1,6 @@
 {
   "name": "gh-polyglot",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Get language stats about GitHub users and repositories.",
   "main": "lib/index.js",
   "directories": {
@@ -56,6 +56,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
